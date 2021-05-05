@@ -1,9 +1,12 @@
 package application;
 
+import boardgame.Board;
+
 public class ChessSystem {
 
 	public static void main(String[] args) {
-		System.out.println("olamdwujidn");
+		
+		Board board = new Board(8, 8);
 
 	}
 
